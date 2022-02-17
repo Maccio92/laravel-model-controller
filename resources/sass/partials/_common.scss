@@ -1,0 +1,23 @@
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .card{
+        width: calc(100% / 4);
+        background-color: red;
+        margin: 1em;
+        border: solid 5px black;
+        border-radius: 10px;
+        text-align: center;
+        font-family: sans-serif;
+        h2{
+            color: white;
+            text-transform: capitalize;
+        }
+        h3{
+            color: yellow;
+            text-transform: capitalize;
+        }
+    }
+}
